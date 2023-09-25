@@ -12,11 +12,11 @@ from PIL import Image
 
 # SETTING PAGE CONFIGURATIONS
 icon = Image.open("Youtube_logo.png")
-st.set_page_config(page_title= "Youtube Data Harvesting and Warehousing | By Akash Jha",
+st.set_page_config(page_title= "Youtube Data Harvesting and Warehousing",
                    page_icon= icon,
                    layout= "wide",
                    initial_sidebar_state= "expanded",
-                   menu_items={'About': """# This app is created by *Akash Jha!*"""})
+                  
 
 # CREATING OPTION MENU
 with st.sidebar:
