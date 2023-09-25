@@ -15,7 +15,7 @@ icon = Image.open("Youtube_logo.png")
 st.set_page_config(page_title= "Youtube Data Harvesting and Warehousing",
                    page_icon= icon,
                    layout= "wide",
-                   initial_sidebar_state= "expanded",
+                   initial_sidebar_state= "expanded")
                   
 
 # CREATING OPTION MENU
